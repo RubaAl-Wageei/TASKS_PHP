@@ -123,7 +123,7 @@ foreach($temp_array as $temp)
 }
  $avg_high_temp = $tot_temp/$temp_array_length;
  echo "Average Temperature is : ".$avg_high_temp."
-"; 
+"."<br>"; 
 sort($temp_array);
 echo " List of seven lowest temperatures :";
 for ($i=0; $i< 7; $i++)
